@@ -13,7 +13,7 @@ use Traversable;
 use function array_shift;
 use function func_num_args;
 
-class Result
+class Result implements DriverResult
 {
     private DriverResult $result;
     private Connection $connection;
